@@ -1,0 +1,22 @@
+{
+  "name": "grocery-store",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "",
+  "source": "src/index.js",
+  "main": "dist/grocery-store.cjs",
+  "exports": "dist/grocery-store.modern.js",
+  "module": "dist/grocery-store.module.js",
+  "unpkg": "dist/grocery-store.umd.js",
+  "scripts": {
+    "test": "nyc --reporter=text --reporter=text-summary --reporter=html tape tests/**/*.js",
+    "build": "microbundle"
+  },
+  "author": "Michael Miller-Hairston",
+  "license": "MIT",
+  "devDependencies": {
+    "microbundle": "^0.13.3",
+    "nyc": "^15.1.0",
+    "tape": "^5.3.1"
+  }
+}
