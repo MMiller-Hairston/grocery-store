@@ -1,5 +1,9 @@
 # grocery
 
+[![npm version](https://badge.fury.io/js/grocery-store.svg)](https://badge.fury.io/js/grocery-store)
+
+[![Build Status](https://app.travis-ci.com/MMiller-Hairston/grocery-store.svg?branch=main)](https://app.travis-ci.com/MMiller-Hairston/grocery-store)
+
 Store objects are responsible for holding state and providing actions to mutate that state. You can have as many store objects as you need to keep them simple and responsible for a small part of your app state. Grocery is a library to help facilitate that process.
 
 ## install
